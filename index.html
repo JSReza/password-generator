@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+>
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <h2>generate a random password</h2>
+    <form id="password-form">
+        <label for="length">Password Length:</label>
+        <input type="number" id="length" placeholder="Enter password length" min="1" max="100">
+        <br/>
+        <button id="generate">Generate Password</button>
+    </form>
+
+    <div class = "box" id = "passwords">
+        <p id="password-one"></p>
+        <p id="password-two"></p>
+        <p id = "message"></p>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
